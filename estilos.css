@@ -1,0 +1,84 @@
+/*CONFIGURACIÓN GLOBAL*/
+
+*{
+	padding: 0;
+	margin: 0;
+    background-color: black;   
+}
+
+body{
+    width: 100%;
+}
+
+/********************* DIV1_1 *********************/
+
+    /*CONFIGURACIÓN DE LA DISTANCIA DEL DIV CONTENEDOR GENERAL DEL LOGO, 
+    TITULO E IMAGEN DEL CASCO DEL CAPITÁN AMÉRICA Y LA MARGEN IZQUIERDA*/
+    .div1_1{
+        margin-left: 17%;    
+    }
+
+    /*CONFIGURACIÓN PARA EL TIPO DE POSICIONAMIENTO DEL DIV QUE CONTIENE EL LOGO Y EL TITULO DE CAPITÁN AMÉRICA*/
+    .div1_1_1 {	  
+        float: left;        
+    }
+
+    /*CONFIGURACIÓN PARA EL TEXTO "CAPTAIN AMERICA: CIVIL WAR" */
+    .titulo1, .titulo2{
+        color: white; 
+        font-family: 'Open Sans', sans-serif;
+        font-size: 40px;
+    }
+
+    /*CONFIGURACIÓN DE LA DISTANCIA DEL MARGEN SUPERIOR Y EL TITULO DE "CAPTAIN AMERICA"*/
+    .titulo1{
+        margin-top: 120px;
+    }
+
+    /*CONFIGURACIÓN DE LA DISTANCIA ENTRE EL LOGO DE LA PÁGINA Y EL MARGEN SUPERIOR*/
+    .div1_1_1 img{
+        margin-top:100px;	
+    }
+
+    /*CONFIGURACIÓN DEL TAMAÑO DE LA IMAGEN DEL CASCO DE CAPITÁN AMÉRICA*/
+    .div1_1_2 img{
+        width: 657px;
+    }
+
+    /*CONFIGURACIÓN PARA LA LINEA DIVISORIA ENTRE EL TITULO Y EL ENLACE DEL TRAILER*/
+    hr{
+        width: 110px; 
+    }
+
+    /*CONFIGURACIÓN PARA EL ENLACE QUE REDIRECCIONA AL TRAILER DE LA PELICULA*/
+    a{
+        text-decoration: none;
+        color: white;    
+    }
+    
+/********************* DIV1_2 *********************/
+
+    /*CONFIGURACIÓN DE LA DISTANCIA DEL DIV CONTENEDOR GENERAL DE LAS IMAGENES 
+    DE DANIEL DAY-LEWIS Y BATMAN VS SUPERMAN, Y LA MARGEN IZQUIERDA*/
+    .div1_2{
+        margin-left: 17%;
+    }
+
+    /*CONFIGURACIÓN PARA EL TIPO DE POSICIONAMIENTO DEL DIV QUE CONTIENE
+    LAS IMAGENES DE DANIEL DAY-LEWIS Y BATMAN VS SUPERMAN*/
+    .div1_2_1 {	  
+        float: left;        
+    }
+    
+    /*CONFIGURACIÓN DEL TAMAÑO DE LA IMAGEN DE DANIEL DAY-LEWIS*/
+    .div1_2_1 img{
+       width: 320px;
+    }
+    
+   /*CONFIGURACIÓN DEL TAMAÑO DE LA IMAGEN DE BATMAN VS SUPERMAN*/
+   .div1_2_2 img{
+       width: 641px;       
+   }
+
+
+
